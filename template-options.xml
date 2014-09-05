@@ -37,7 +37,16 @@
     <field name="headerstyle" type="selectbox" default="dark" label="HEADER_STYLE" isbodyclass="true" description="HEADER_STYLE_DESC" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true">
         <option value="dark">DARK</option>
         <option value="light">LIGHT</option>
-    </field>
+        <option value="p0110">p0110</option>
+	    <option value="p0159">p0159</option>
+	    <option value="p0186">p0186</option>
+	    <option value="p0555">p0555</option>
+	    <option value="p0583">p0583</option>
+	    <option value="p1815">p1815</option>
+	    <option value="p4485">p4485</option>
+	    <option value="p5565">p5565</option>
+	    <option value="p7474">p7474</option>
+		</field>
 
      <field name="linkcolor" type="colorchooser" default="#2698de" label="LINK_COLOR" description="LINK_COLOR_DESC" setinsession="true"
          setbysession="true" setincookie="true" setbycookie="true"/>
