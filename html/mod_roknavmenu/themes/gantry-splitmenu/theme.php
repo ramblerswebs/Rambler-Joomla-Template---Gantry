@@ -2,7 +2,7 @@
 /**
 * @version   $Id: theme.php 7234 2013-02-06 05:09:14Z steph $
  * @author    RocketTheme http://www.rockettheme.com
- * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @copyright Copyright (C) 2007 - 2017 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 

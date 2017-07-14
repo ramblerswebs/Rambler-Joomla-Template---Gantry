@@ -1,6 +1,6 @@
 <?php
 /**
-* @version   $Id: color.php 2328 2012-08-13 17:55:39Z btowles $
+* @version   $Id: color.php 29724 2015-12-22 01:14:38Z djamil $
 * @author    RocketTheme http://www.rockettheme.com
 * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
 * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only

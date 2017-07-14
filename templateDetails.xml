@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
-<extension method="upgrade" type="template" version="2.5">
-    <name>ramblers-default</name>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension version="2.5" type="template" method="upgrade">
+    <name>gantry</name>
     <author>RocketTheme, LLC</author>
-    <creationDate>August 6, 2014</creationDate>
-    <copyright>(C) 2005 - 2014 RocketTheme, LLC. All rights reserved.</copyright>
+    <creationDate>July  7, 2017</creationDate>
+    <copyright>(C) 2005 - 2017 RocketTheme, LLC. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
-    <version>4.1.25</version>
-    <description>Gantry Starting Template for Joomla! v4.1.25</description>
-    <legacycss>false</legacycss>
-    <gridcss>false</gridcss>
+    <version>4.1.33</version>
+    <description>Gantry 4 Starting Template</description>
     <files>
-        <folder>admin</folder>
-        <filename>index.php</filename>
-        <filename>error.php</filename>
-        <folder>images</folder>
         <filename>component.php</filename>
-        <filename>template-thumb-big.png</filename>
-        <filename>template_preview.png</filename>
+        <filename>debugbody.php</filename>
+        <filename>error.php</filename>
         <filename>gantry.config.php</filename>
         <filename>htaccess.txt</filename>
-        <folder>fields</folder>
-        <folder>language</folder>
-        <filename>debugbody.php</filename>
-        <filename>template-overview.php</filename>
-        <folder>css-compiled</folder>
-        <folder>less</folder>
-        <folder>custom</folder>
-        <folder>html</folder>
-        <folder>css</folder>
-        <filename>template-options.xml</filename>
+        <filename>index.php</filename>
         <filename>offline.php</filename>
-        <folder>features</folder>
+        <filename>template_preview.png</filename>
         <filename>template_thumbnail.png</filename>
-        <folder>lib</folder>
+        <filename>template-options.xml</filename>
+        <filename>template-overview.php</filename>
+        <filename>template-thumb-big.png</filename>
+        <filename>templateDetails.xml</filename>
         <filename>tests.php</filename>
+        <filename>MD5SUMS</filename>
+        <folder>admin</folder>
+        <folder>css</folder>
+        <folder>css-compiled</folder>
+        <folder>custom</folder>
+        <folder>features</folder>
+        <folder>fields</folder>
+        <folder>html</folder>
+        <folder>images</folder>
         <folder>js</folder>
+        <folder>language</folder>
+        <folder>less</folder>
+        <folder>lib</folder>
     </files>
     <positions>
         <position>analytics</position>
@@ -123,7 +123,7 @@
 	<config>
         <fields name="params">
             <fieldset name="base">
-                <field default="true" name="master" type="hidden" value="true"/>
+                <field name="master" type="hidden" value="true" default="true"/>
             </fieldset>
         </fields>
     </config>
