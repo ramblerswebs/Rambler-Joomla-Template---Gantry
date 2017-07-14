@@ -10,7 +10,7 @@
 */
 class Color {
 
-	function Color($hex){
+	function __construct($hex){
 		$this->color = $hex;
 	}
 
