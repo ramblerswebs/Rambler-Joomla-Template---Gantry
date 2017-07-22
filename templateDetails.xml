@@ -9,6 +9,8 @@
     <authorUrl>http://www.rockettheme.com</authorUrl>
     <version>4.1.33</version>
     <description>Gantry 4 Starting Template</description>
+    <legacycss>false</legacycss>
+    <gridcss>false</gridcss>
     <files>
         <filename>component.php</filename>
         <filename>debugbody.php</filename>
