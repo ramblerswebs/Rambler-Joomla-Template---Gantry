@@ -7,8 +7,8 @@
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
-    <version>4.1.33</version>
-    <description>Gantry 4 Starting Template</description>
+    <version>2.0.0</version>
+    <description>Gantry 4 Starting Template 4.1.33</description>
     <legacycss>false</legacycss>
     <gridcss>false</gridcss>
     <files>
@@ -129,4 +129,7 @@
             </fieldset>
         </fields>
     </config>
+    <updateservers>
+        <server type="extension" priority="1" name="Ramblers-template Update Site">https://raw.githubusercontent.com/ramblerswebs/updates/master/updates/ramblerstemplate.xml</server>
+    </updateservers>
 </extension>
