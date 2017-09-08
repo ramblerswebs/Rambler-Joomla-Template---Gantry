@@ -14,7 +14,7 @@ JHtml::_('bootstrap.tooltip');
 echo '<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb' . $moduleclass_sfx . '">' . PHP_EOL;
 if ($params->get('showHere', 1)) {
     echo '<li>' . PHP_EOL;
-    echo JText::_('MOD_BREADCRUMBS_HERE') . '&#160' . PHP_EOL;
+    echo JText::_('MOD_BREADCRUMBS_HERE') . '&#160;' . PHP_EOL;
     echo '</li>' . PHP_EOL;
 } else {
     echo '<li class="active">' . PHP_EOL;
