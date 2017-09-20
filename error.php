@@ -81,9 +81,10 @@ ob_start();
 
 $body = ob_get_clean();
 $gantry->finalize();
-
-require_once(JPATH_LIBRARIES.'/joomla/document/html/renderer/head.php');
-$header_renderer = new JDocumentRendererHead($doc);
+//JDocumentRendererHead is no longer valid
+//require_once(JPATH_LIBRARIES.'/joomla/document/html/renderer/head.php');
+//$header_renderer = new JDocumentRendererHead($doc);
+$header_renderer = new JDocumentRendererHtmlHead($doc);
 $header_contents = $header_renderer->render(null);
 ob_start();
 ?>
