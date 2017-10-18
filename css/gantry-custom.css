@@ -5,7 +5,7 @@
 a[href="javascript:void(0);"] {
     cursor:default  !important;
 }
-a:only-child[target] {
+a[target="_blank"]:hover{
     content:' ';
     background: url(../images/icons/new-win.png) no-repeat right ;
     padding-right:15px;
