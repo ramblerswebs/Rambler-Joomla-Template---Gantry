@@ -12,16 +12,16 @@ a[target="_blank"]:hover{
 }
 /*  start of section to allow mainmenu items to be on the right and/or without text */
 ul.gf-menu li.floatright {
- float:right; 
+    float:right; 
 }
 ul.gf-menu li.notext a.item.image {
     font-size: 0px;
-  padding-top:0px;
-  padding-bottom:0px;
+    padding-top:0px;
+    padding-bottom:0px;
 }
 ul.gf-menu li.notext a.item.image img{
     padding-bottom: 4px;
-  margin-top:-10px;
+    margin-top:-10px;
 }
 /*  end of section to allow mainmenu items to be on the right and/or without text */
 
@@ -228,4 +228,11 @@ ul.gf-menu li.notext a.item.image img{
     .rt-prefix-9 {padding-left: 900px;}
     .rt-prefix-10 {padding-left: 1000px;}
     .rt-prefix-11 {padding-left: 1100px;}
+}
+
+/* bug fix for icon menu items */
+@media (min-width: 768px) and (max-width: 959px) {
+    .layout-mode-responsive .gf-menu.l1 > li .item.image img {
+        display: inline !important;
+    }
 }
