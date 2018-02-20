@@ -13,6 +13,7 @@ a[target="_blank"]:hover{
 /*  start of section to allow mainmenu items to be on the right and/or without text */
 ul.gf-menu li.floatright {
     float:right; 
+    margin-right:0px;
 }
 ul.gf-menu li.notext a.item.image {
     font-size: 0px;
