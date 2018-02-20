@@ -10,6 +10,20 @@ a[target="_blank"]:hover{
     background: url(../images/icons/new-win.png) no-repeat right ;
     padding-right:15px;
 }
+/*  start of section to allow mainmenu items to be on the right and/or without text */
+ul.gf-menu li.floatright {
+ float:right; 
+}
+ul.gf-menu li.notext a.item.image {
+    font-size: 0px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+ul.gf-menu li.notext a.item.image img{
+    padding-bottom: 4px;
+  margin-top:-10px;
+}
+/*  end of section to allow mainmenu items to be on the right and/or without text */
 
 @media only screen and (min-width: 1560px) {
     .rt-container {width: 1560px;margin: 0 auto;}
