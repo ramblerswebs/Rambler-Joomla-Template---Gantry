@@ -1,7 +1,7 @@
 /**
 * @version   $Id: load-transition.js 1637 2012-07-13 00:13:40Z kevin $
 * @author    RocketTheme http://www.rockettheme.com
-* @copyright Copyright (C) 2007 - 2017 RocketTheme, LLC
+* @copyright Copyright (C) 2007 - 2019 RocketTheme, LLC
 * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
 */
 
