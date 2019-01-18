@@ -5,25 +5,25 @@
     </fieldset>
 
     <fieldset name="overview" label="OVERVIEW">
-        <field name="overviewtips" type="tips" tab="overview" panel_position="right" show_label="false" />
-        <field name="overview" type="file" path="/template-overview.php" show_label="false"/>
-    </fieldset>
-    <fieldset name="style" label="STYLE">
-        <field name="master" type="hidden" value="false" default="true"/>
-        <field name="current_id" type="hidden" value="false" default="true"/>
-        <field name="gantry" type="gantry" value="" panel_position="hiddens"/>
-        <field name="template_full_name" type="hidden" default="Gantry"/>
-        <field name="grid_system" type="hidden" default="12"/>
-        <field name="template_prefix" type="hidden" default="gantry-"/>
-        <field name="cookie_time" type="hidden" default="31536000"/>
+      <field name="overviewtips" type="tips" tab="overview" panel_position="right" show_label="false" />
+      <field name="overview" type="file" path="/template-overview.php" show_label="false"/>
+  </fieldset>
+  <fieldset name="style" label="STYLE">
+    <field name="master" type="hidden" value="false" default="true"/>
+    <field name="current_id" type="hidden" value="false" default="true"/>
+    <field name="gantry" type="gantry" value="" panel_position="hiddens"/>
+    <field name="template_full_name" type="hidden" default="Gantry"/>
+    <field name="grid_system" type="hidden" default="12"/>
+    <field name="template_prefix" type="hidden" default="gantry-"/>
+    <field name="cookie_time" type="hidden" default="31536000"/>
 
-        <field name="override_set" type="hidden" default="2.5"/>
+    <field name="override_set" type="hidden" default="2.5"/>
 
 
-        <field name="name" type="hidden" default="Preset1" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" />
-        <field name="copy_lang_files_if_diff" type="hidden" default="1"/>
+    <field name="name" type="hidden" default="Preset1" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" />
+    <field name="copy_lang_files_if_diff" type="hidden" default="1"/>
 
-        <fields name="logo" type="selectedset" label="LOGO" description="LOGO_DESC">
+    <fields name="logo" type="selectedset" label="LOGO" description="LOGO_DESC">
             <field name="enabled" type="toggle" default="1" label="SHOW" />
             <field name="position" type="position" translation="false" default="header-a" label="POSITION" />
             <field name="type" type="selectbox" selector="true" default="gantry" label="TYPE" isbodyclass="true" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
@@ -34,9 +34,9 @@
             </fields>
         </fields>
 
-        <field name="headerstyle" type="selectbox" default="dark" label="HEADER_STYLE" isbodyclass="true" description="HEADER_STYLE_DESC" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true">
-            <option value="dark">DARK</option>
-            <option value="light">LIGHT</option>
+    <field name="headerstyle" type="selectbox" default="dark" label="HEADER_STYLE" isbodyclass="true" description="HEADER_STYLE_DESC" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true">
+        <option value="dark">DARK</option>
+        <option value="light">LIGHT</option>
             <option value="p0110">p0110</option>
             <option value="p0159">p0159</option>
             <option value="p0186">p0186</option>
@@ -46,10 +46,10 @@
             <option value="p4485">p4485</option>
             <option value="p5565">p5565</option>
             <option value="p7474">p7474</option>
-        </field>
+    </field>
 
-        <field name="linkcolor" type="colorchooser" default="#2698de" label="LINK_COLOR" description="LINK_COLOR_DESC" setinsession="true"
-               setbysession="true" setincookie="true" setbycookie="true"/>
+     <field name="linkcolor" type="colorchooser" default="#2698de" label="LINK_COLOR" description="LINK_COLOR_DESC" setinsession="true"
+         setbysession="true" setincookie="true" setbycookie="true"/>
 
         <fields name="font" type="chain" label="FONT_SETTINGS" description="FONT_SETTINGS_DESC">
             <field name="family" type="fonts" default="s:helvetica" primary="helvetica" label="FONT_FAMILY" isbodyclass="true" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true">
@@ -63,14 +63,14 @@
             </field>
             <field name="size" type="hidden" default="default" setbyurl="true"/>
             <field name="size-is" type="selectbox" default="default" label="FONT_SIZE" setinsession="true"
-                   setbysession="true" setincookie="true" setbycookie="true" isbodyclass="true">
-                <option value="xsmall">F_XSMALL</option>
-                <option value="small">F_SMALL</option>
-                <option value="default">F_DEFAULT</option>
-                <option value="large">F_LARGE</option>
-                <option value="xlarge">F_XLARGE</option>
-            </field>
-        </fields>
+                 setbysession="true" setincookie="true" setbycookie="true" isbodyclass="true">
+                 <option value="xsmall">F_XSMALL</option>
+                 <option value="small">F_SMALL</option>
+                 <option value="default">F_DEFAULT</option>
+                 <option value="large">F_LARGE</option>
+                 <option value="xlarge">F_XLARGE</option>
+             </field>
+         </fields>
 
     </fieldset>
     <fieldset name="features" label="FEATURES">
@@ -154,7 +154,7 @@
         </fields>
     </fieldset>
     <fieldset name="menu" label="MENU">
-        <fields name="menu" type="selectedset" label="MENU_CTRL" description="MENU_CTRL_DESC">
+           <fields name="menu" type="selectedset" label="MENU_CTRL" description="MENU_CTRL_DESC">
             <field name="enabled" type="toggle" default="1" label="SHOW" enabler="true" />
             <field name="type" type="selectbox" selector="true" default="dropdownmenu" label="TYPE" isbodyclass="true" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
             <fields type="set" name="dropdownmenu" label="DROPDOWN">
@@ -203,7 +203,7 @@
     </fieldset>
     <fieldset name="layouts" label="LAYOUTS">
 
-        <fields name="top" type="position" label="TOP_POS" description="LAYOUT_POS_DESC">
+           <fields name="top" type="position" label="TOP_POS" description="LAYOUT_POS_DESC">
             <field name="layout" type="positions" default="3,3,3,3" label="">
                 <schemas>1,2,3,4,5,6</schemas>
                 <words>2,3,4,5,6,7,8,9,10</words>
@@ -338,5 +338,5 @@
     </fieldset>
     <fieldset name="assignment" label="ASSIGNMENTS">
         <field name="assignments" type="assignments" panel_position="left" setinoverride="false"/>
-    </fieldset>
-</form>
+        </fieldset>
+    </form>
