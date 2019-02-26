@@ -2,13 +2,13 @@
 <extension version="2.5" type="template" method="upgrade">
     <name>gantry</name>
     <author>RocketTheme, LLC</author>
-    <creationDate>February 19, 2019</creationDate>
+    <creationDate>February 26, 2019</creationDate>
     <copyright>(C) 2005 - 2019 RocketTheme, LLC. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
-    <version>2.1.0</version>
-    <description>Gantry 4 Starting Template  4.1.40 - Ramblers 2.1.1</description>
+    <version>2.1.2</version>
+    <description>Gantry 4 Starting Template  4.1.40 - Ramblers 2.1.2</description>
     <legacycss>false</legacycss>
     <gridcss>false</gridcss>
     <files>
