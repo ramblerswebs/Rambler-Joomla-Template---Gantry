@@ -2,7 +2,7 @@
 /**
  * @version   $Id: blog_children.php 9830 2013-04-29 23:56:49Z btowles $
  * @author    RocketTheme http://www.rockettheme.com
- * @copyright Copyright (C) 2007 - 2019 RocketTheme, LLC
+ * @copyright Copyright (C) 2007 - 2020 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 defined('_JEXEC') or die;

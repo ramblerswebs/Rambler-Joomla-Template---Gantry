@@ -2,7 +2,7 @@
 /**
 * @version   $Id: error.php 15753 2013-11-18 18:49:43Z btowles $
 * @author    RocketTheme http://www.rockettheme.com
-* @copyright Copyright (C) 2007 - 2019 RocketTheme, LLC
+* @copyright Copyright (C) 2007 - 2020 RocketTheme, LLC
 * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
 *
 * Gantry uses the Joomla Framework (http://www.joomla.org), a GNU/GPLv2 content management system
@@ -82,10 +82,10 @@ ob_start();
 $body = ob_get_clean();
 $gantry->finalize();
 
-//if (!class_exists('JDocumentRendererHead')) {
-//    require_once(JPATH_LIBRARIES.'/joomla/document/html/renderer/head.php');
-//}
-$header_renderer = new JDocumentRendererHtmlHead($doc);
+if (!class_exists('JDocumentRendererHead')) {
+    require_once(JPATH_LIBRARIES.'/joomla/document/html/renderer/head.php');
+}
+$header_renderer = new JDocumentRendererHead($doc);
 $header_contents = $header_renderer->render(null);
 ob_start();
 ?>
