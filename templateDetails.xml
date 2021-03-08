@@ -2,13 +2,13 @@
 <extension version="2.5" type="template" method="upgrade">
     <name>gantry</name>
     <author>RocketTheme, LLC</author>
-    <creationDate>April  1, 2020</creationDate>
-    <copyright>(C) 2005 - 2020 RocketTheme, LLC. All rights reserved.</copyright>
+    <creationDate>March 7, 2021</creationDate>
+    <copyright>(C) 2005 - 2021 RocketTheme, LLC. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
-    <version>4.1.43</version>
-    <description>Gantry 4 Starting Template</description>
+    <version>2.1.3</version>
+    <description>RA 2.1.3 - Based on Gantry 4 Starting Template 4.1.43</description>
     <legacycss>false</legacycss>
     <gridcss>false</gridcss>
     <files>
@@ -122,11 +122,14 @@
         <position>copyright-f</position>
         <position>debug</position>
     </positions>
-	<config>
+    <config>
         <fields name="params">
             <fieldset name="base">
                 <field name="master" type="hidden" value="true" default="true"/>
             </fieldset>
         </fields>
     </config>
+    <updateservers>
+        <server type="extension" priority="1" name="Ramblers-template Update Site">https://raw.githubusercontent.com/ramblerswebs/updates/master/updates/ramblerstemplate.xml</server>
+    </updateservers>
 </extension>
