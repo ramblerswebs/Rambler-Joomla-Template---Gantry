@@ -82,10 +82,10 @@ ob_start();
 $body = ob_get_clean();
 $gantry->finalize();
 
-if (!class_exists('JDocumentRendererHead')) {
-    require_once(JPATH_LIBRARIES.'/joomla/document/html/renderer/head.php');
-}
-$header_renderer = new JDocumentRendererHead($doc);
+//if (!class_exists('JDocumentRendererHead')) {
+//    require_once(JPATH_LIBRARIES.'/joomla/document/html/renderer/head.php');
+//}
+$header_renderer = new JDocumentRendererHtmlHead($doc);
 $header_contents = $header_renderer->render(null);
 ob_start();
 ?>
