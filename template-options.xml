@@ -35,6 +35,7 @@
         </fields>
 
         <field name="headerstyle" type="selectbox" default="dark" label="HEADER_STYLE" isbodyclass="true" description="HEADER_STYLE_DESC" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true">
+            <option value="2021brand">2021Brand</option>
             <option value="dark">DARK</option>
             <option value="light">LIGHT</option>
             <option value="p0110">p0110</option>
