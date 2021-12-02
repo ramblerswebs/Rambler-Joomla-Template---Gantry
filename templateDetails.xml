@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <extension version="2.5" type="template" method="upgrade">
-    <name>gantry</name>
+    <name>ramblers_gantry</name>
     <author>RocketTheme, LLC</author>
-    <creationDate>20 October 2021</creationDate>
+    <creationDate>2 December 2021</creationDate>
     <copyright>(C) 2005 - 2021 RocketTheme, LLC. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
-    <version>2.2.1</version>
-    <description>RA 2.2.1 - Based on Gantry 4 Starting Template 4.1.43</description>
+    <version>2.2.2</version>
+    <description>RA 2.2.2 - Based on Gantry 4 Starting Template 4.1.43</description>
     <legacycss>false</legacycss>
     <gridcss>false</gridcss>
     <files>
