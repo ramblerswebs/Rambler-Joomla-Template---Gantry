@@ -2,13 +2,13 @@
 <extension version="3.1" type="template" method="upgrade">
     <name>gantry</name>
     <author>RocketTheme, LLC</author>
-    <creationDate>2 December 2021</creationDate>
+    <creationDate>18 Jan 2022</creationDate>
     <copyright>(C) 2005 - 2021 RocketTheme, LLC. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
-    <version>2.2.5</version>
-    <description>RA 2.2.5 - Based on Gantry 4 Starting Template 4.1.43</description>
+    <version>2.2.6</version>
+    <description>RA 2.2.6 - Based on Gantry 4 Starting Template 4.1.43</description>
     <legacycss>false</legacycss>
     <gridcss>false</gridcss>
     <files>

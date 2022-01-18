@@ -28,6 +28,11 @@ ul.gf-menu li.notext a.item.image img{
     padding-bottom: 4px;
     margin-top:-10px;
 }
+/* for facebook, twitter icons  */
+ul.gf-menu li.floatright a.item.image img.menu-image{
+   height: 32px;
+   
+}
 /*  end of section to allow mainmenu items to be on the right and/or without text */
 
 @media only screen and (min-width: 1560px) {
