@@ -35,9 +35,16 @@
         </fields>
 
         <field name="headerstyle" type="selectbox" default="dark" label="HEADER_STYLE" isbodyclass="true" description="HEADER_STYLE_DESC" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true">
-            <option value="2022brand">2022 Branding</option>
             <option value="dark">DARK</option>
             <option value="light">LIGHT</option>
+            <option value="ra-granite">Granite</option>
+            <option value="ra-cloudy">Cloudy</option>
+            <option value="ra-mintcake">Mintcake</option>
+            <option value="ra-rosycheeks">Rosycheeks</option>
+            <option value="ra-sunset">Sunset</option>
+            <option value="ra-sunrise">Sunrise</option>
+            <option value="ra-mintcake-sunset">Two tone Mintcake/Sunset</option>
+            <option value="ra-sunset-mintcake">Two tone Sunset/Mintcake</option>
             <option value="p0110">p0110</option>
             <option value="p0159">p0159</option>
             <option value="p0186">p0186</option>
