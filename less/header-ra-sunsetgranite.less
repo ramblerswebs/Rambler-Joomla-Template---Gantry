@@ -12,8 +12,8 @@
 @ramblersRosieCheeks:           #F6B09D;
 @ramblersGranite:               #404141;
 @ramblersCloudy:                #FFFFFF;
-@topbackground2:	lighten(@ramblersSunset, 5%);
-@topbackground:		darken(@ramblersSunset, 10%);
+@topbackground2:	darken(@ramblersSunset, 5%);
+@topbackground:		@ramblersSunset;
 @toptext:				#6e6e6e;
 @toptitle:				#303030;
 @topshadow:				#ffffff;
@@ -35,7 +35,7 @@
 	#gradient > .vertical(@topbackground, @topbackground2);
 	color: @toptext;
 	//text-shadow: 0 2px 3px @topshadow;
-	text-shadow: 0 0px 0px @topshadow;
+	//text-shadow: 0 0px 0px @topshadow;
 	.box-shadow(0 2px 4px rgba(0,0,0,0.3));
 	border-bottom: 1px solid @topshadow;
 	.title {

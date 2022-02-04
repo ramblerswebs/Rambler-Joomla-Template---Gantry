@@ -35,17 +35,22 @@
         </fields>
 
         <field name="headerstyle" type="selectbox" default="dark" label="HEADER_STYLE" isbodyclass="true" description="HEADER_STYLE_DESC" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true">
-            <option value="dark">DARK</option>
-            <option value="light">LIGHT</option>
             <option value="ra-granite">Granite</option>
             <option value="ra-cloudy">Cloudy</option>
-            <option value="ra-mintcake">Mintcake</option>
-            <option value="ra-rosycheeks">Rosycheeks</option>
-            <option value="ra-sunset">Sunset</option>
-            <option value="ra-sunrise">Sunrise</option>
-            <option value="ra-mintcake-sunset">Two tone Mintcake/Sunset</option>
-            <option value="ra-sunset-mintcake">Two tone Sunset/Mintcake</option>
-           <option value="ra-sunset-mintcakeblack">Two tone Sunset/Mintcake Black text</option>
+            <option value="ra-mintcake">Mintcake/White</option>
+            <option value="ra-mintcakegranite">Mintcake/Granite</option>
+            <option value="ra-rosycheeks">Rosycheeks/White</option>
+            <option value="ra-rosycheeksgranite">Rosycheeks/Granite</option>
+            <option value="ra-sunset">Sunset/White</option>
+            <option value="ra-sunsetgranite">Sunset/Granite</option>
+            <option value="ra-sunrise">Sunrise/White</option>
+            <option value="ra-sunrisegranite">Sunrise/Granite</option>
+            <option value="ra-mintcake-sunset">Two tone Mintcake/Sunset/White</option>
+            <option value="ra-mintcake-sunsetgranite">Two tone Mintcake/Sunset/Granite</option>
+            <option value="ra-sunset-mintcake">Two tone Sunset/Mintcake/White</option>
+            <option value="ra-sunset-mintcakegranite">Two tone Sunset/Mintcake/Granite</option>
+            <option value="dark">DARK</option>
+            <option value="light">LIGHT</option>
             <option value="p0110">p0110</option>
             <option value="p0159">p0159</option>
             <option value="p0186">p0186</option>

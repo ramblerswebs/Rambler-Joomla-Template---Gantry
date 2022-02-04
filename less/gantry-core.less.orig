@@ -76,20 +76,20 @@ body {
 	line-height: 1.7em;
 	font-family: Helvetica,Arial, Sans-Serif;
 }
-.font-size-is-xxxlarge {
-	font-size: 20px;
-	line-height: 1.7em;
-}
-.font-size-is-xxlarge {
-	font-size: 18px;
+.font-size-is-large {
+	font-size: 15px;
 	line-height: 1.7em;
 }
 .font-size-is-xlarge {
 	font-size: 16px;
 	line-height: 1.7em;
 }
-.font-size-is-large {
-	font-size: 15px;
+.font-size-is-xxlarge {
+	font-size: 18px;
+	line-height: 1.7em;
+}
+.font-size-is-xxxlarge {
+	font-size: 20px;
 	line-height: 1.7em;
 }
 .font-size-is-default {
