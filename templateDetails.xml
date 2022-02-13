@@ -2,19 +2,20 @@
 <extension version="3.1" type="template" method="upgrade">
     <name>gantry</name>
     <author>RocketTheme, LLC</author>
-    <creationDate>10 February 2022</creationDate>
+    <creationDate>13 February 2022</creationDate>
     <copyright>(C) 2005 - 2022 RocketTheme, LLC. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
-    <version>2.2.9</version>
-    <description>RA 2.2.9 - Based on Gantry 4 Starting Template 4.1.43</description>
+    <version>2.2.10</version>
+    <description>RA 2.2.10 - Based on Gantry 4 Starting Template 4.1.43</description>
     <legacycss>false</legacycss>
     <gridcss>false</gridcss>
     <files>
         <filename>component.php</filename>
         <filename>debugbody.php</filename>
         <filename>error.php</filename>
+        <filename>favicon.ico</filename>
         <filename>gantry.config.php</filename>
         <filename>htaccess.txt</filename>
         <filename>index.php</filename>
