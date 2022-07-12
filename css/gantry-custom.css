@@ -8,11 +8,11 @@ a[href="javascript:void(0);"] {
 a[target="_blank"]:hover{
     content:' ';
     background: url(../images/icons/new-win.png) no-repeat right;
-    padding-right:12px;
+    padding-right:10px;
 }
 a[target="_blank"]{
     content:'xx';
-    padding-right:12px;
+    padding-right:10px;
 }
 /*  start of section to allow mainmenu items to be on the right and/or without text */
 ul.gf-menu li.floatright {
